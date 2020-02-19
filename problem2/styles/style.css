@@ -1,0 +1,32 @@
+/*
+    - Didn't bother to center the image on the screen, but I was able to understand the major concepts: flow-wrap and align-content
+*/
+
+.container {
+    height: 100vw;
+    width: 100vw;
+    background-color: black;
+}
+
+.inner-container {
+    max-height: 500px;
+    max-width: 500px;
+    height: 50vw;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.beige {
+    background-color: beige;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.brown {
+    background-color: brown;
+    width: 12.5%;
+    height: 12.5%;
+}
